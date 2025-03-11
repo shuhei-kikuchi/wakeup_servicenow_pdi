@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  playwright:
+    build: 
+      context: .
+    volumes:
+        - .:/usr/src/app/
+    entrypoint: 
+      sh -c "
+        cd /usr/src/app/ &&
+      python wakeup_snow_pdi.py
+      "
