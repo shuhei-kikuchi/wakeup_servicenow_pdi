@@ -1,0 +1,4 @@
+servicenow:
+  email: "test@example.com"
+  password: "dummyDummy"
+  instanceurl: "https://devXXXXXX.service-now.com"
