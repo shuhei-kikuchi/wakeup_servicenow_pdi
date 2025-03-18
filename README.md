@@ -2,7 +2,7 @@
 
 ## Overview
 
-You may use ServiceNow PDI(Personal Developer Instance) for development or educational purposes. Unfortunately, ServiceNow PDI will delete the created instance after 10 days of no activity if you have not logged in to your ServiceNow Account. To avoid deletion, this tool login to your ServiceNow Developer Account in a way that allows scheduled execution and automates booting development instances.
+You may use ServiceNow PDI(Personal Developer Instance) for development or educational purposes. Unfortunately, ServiceNow  will delete your developer  instance after 10 days with no activity.To avoid deletion, this tool login to your ServiceNow Developer Account in a automated way and boot your instance.
 
 ## Content
     /
