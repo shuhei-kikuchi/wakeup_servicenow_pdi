@@ -1,14 +1,14 @@
-# Wakeup ServiceNow PDI(Personal Development Instance)
+# Wakeup ServiceNow PDI(Personal Developer Instance)
 
 ## Overview
 
-You may use ServiceNow PDI(Personal Development Instance) for development or educational purposes. Unfortunately, ServiceNow PDI will delete the created instance after 10 days of no activity if you have not logged in to your ServiceNow Account. To avoid deletion, this tool login to your ServiceNow Developer Account in a way that allows scheduled execution and automates booting development instances.
+You may use ServiceNow PDI(Personal Developer Instance) for development or educational purposes. Unfortunately, ServiceNow PDI will delete the created instance after 10 days of no activity if you have not logged in to your ServiceNow Account. To avoid deletion, this tool login to your ServiceNow Developer Account in a way that allows scheduled execution and automates booting development instances.
 
 ## Content
     /
     ├── logs/                      # directory for video recordings and screenshots 
     ├── config.yaml.sample         
-    ├── docker-compose.yml         
+    ├── docker-compose.yaml
     ├── Dockerfile                 
     └── wakeup_snow_pdi.py         
 
