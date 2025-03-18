@@ -6,15 +6,16 @@ def run(playwright):
 
     with open('config.yaml', 'r') as yml:
         conf = yaml.safe_load(yml)
-    # conf['servicenow']['email']
-    # conf['servicenow']['password']
-    # conf['servicenow']['instanceurl']
-
 
     browser = playwright.chromium.launch(
         headless=True,
         args = [
-            "--disable-blink-features=AutomationControlled"
+            "--disable-blink-features=AutomationControlled",
+            "--disable-infobars",
+            "--no-first-run",
+            '--enable-webgl',
+            '--use-gl=swiftshader',
+            '--enable-accelerated-2d-canvas'
             ]
         )
     
